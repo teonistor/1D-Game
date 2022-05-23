@@ -279,6 +279,9 @@ function updateKey(keyCode, value) {
         case 88: // X key; fallthrough
             keys.shoot = value;
             break;
+        case 73: //G key; restart hp
+            keys.g = value;
+            break;
     }
 }
 
